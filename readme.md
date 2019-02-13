@@ -34,8 +34,8 @@ The equation is expressed in terms of:
 
 | Parameters | Description | Formula |
 |---|---|---|
-| [Reynolds Number](https://en.wikipedia.org/wiki/Reynolds_number) | A dimensionless value that describes the type of flow - As per | $$Re=\frac{\rho u L}{\mu}$$ or $$Re=\frac{ u L}{v}$$  |
-| Pipe Relative Roughness | A value which describes the roughness of the pipe material compared to its inner diameter. | $$\epsilon/D$$  |
+| [Reynolds Number](https://en.wikipedia.org/wiki/Reynolds_number) | A dimensionless value that describes the type of flow - As per | ![equation](https://latex.codecogs.com/gif.download?%5Cinline%20Re%3D%5Cfrac%7B%5Crho%20u%20L%7D%7B%5Cmu%7D) or ![equation](https://latex.codecogs.com/gif.download?%5Cinline%20Re%3D%5Cfrac%7B%20u%20L%7D%7Bv%7D)  |
+| Pipe Relative Roughness | A value which describes the roughness of the pipe material compared to its inner diameter. | ![equation](https://latex.codecogs.com/gif.download?%5Cinline%20%5Cepsilon/D)  |
 
 This module implements various approximations of the function for use in pipe flow calculations.
 
@@ -84,12 +84,12 @@ The following functions are available in this module. They have been adapted fro
 
 |FUNCTIONAME|AUTHOR|YEAR| VALIDITY RANGE|REF|
 |-|-|-|-|-|
-| sjFriction() | Swamee and Jain | 1976 | $Re= 5000 \to 10^8$ and $\epsilon/D$ = 0.00001 - 0.05| [Paper](https://cedb.asce.org/CEDBsearch/record.jsp?dockey=0006693) |
+| sjFriction() | Swamee and Jain | 1976 | Re= 5000 to 10^8 and e/D = 0.00001 - 0.05| [Paper](https://cedb.asce.org/CEDBsearch/record.jsp?dockey=0006693) |
 | btnFriction() | Bellos, Nalbantis, Tsarkris | 2018 | All Flow Regimes | [Paper](https://ascelibrary.org/doi/10.1061/%28ASCE%29HY.1943-7900.0001540) |
-| fngFriction() | Fang et al. | 2011 | $Re\ge2300$ | [Paper](https://www.sciencedirect.com/science/article/pii/S0029549311000173) |
-| eptFriction() | Evangelides, Papaevangelou, Tzimopoulos | 2010 | $Re\ge2300$ | [Paper](http://blogs.sch.gr/geopapaevan/files/2010/07/full-paper_pre1128act.pdf) |
-| akFriction() | Avci, Kargoz | 2009 | $Re\ge2300$| [Paper](http://dx.doi.org/10.1115/1.3129132) |
-| bkcFriction() | Brkic | 2011 |  $Re\ge2300$| [Paper](https://doi.org/10.1080%2F10916461003620453) |
+| fngFriction() | Fang et al. | 2011 |  R>=2300 | [Paper](https://www.sciencedirect.com/science/article/pii/S0029549311000173) |
+| eptFriction() | Evangelides, Papaevangelou, Tzimopoulos | 2010 | R>=2300 | [Paper](http://blogs.sch.gr/geopapaevan/files/2010/07/full-paper_pre1128act.pdf) |
+| akFriction() | Avci, Kargoz | 2009 |  R>=2300| [Paper](http://dx.doi.org/10.1115/1.3129132) |
+| bkcFriction() | Brkic | 2011 |   R>=2300 | [Paper](https://doi.org/10.1080%2F10916461003620453) |
 
 ## REVISION HISTORY
 | REVISION | DESCRIPTION |

@@ -34,8 +34,8 @@ The equation is expressed in terms of:
 
 | Parameters | Description | Formula |
 |---|---|---|
-| [Reynolds Number](https://en.wikipedia.org/wiki/Reynolds_number) | A dimensionless value that describes the type of flow - As per | $Re=\frac{\rho u L}{\mu}$ or $Re=\frac{ u L}{v}$  |
-| Pipe Relative Roughness | A value which describes the roughness of the pipe material compared to its inner diameter. | $\epsilon/D$  |
+| [Reynolds Number](https://en.wikipedia.org/wiki/Reynolds_number) | A dimensionless value that describes the type of flow - As per | $$Re=\frac{\rho u L}{\mu}$$ or $$Re=\frac{ u L}{v}$$  |
+| Pipe Relative Roughness | A value which describes the roughness of the pipe material compared to its inner diameter. | $$\epsilon/D$$  |
 
 This module implements various approximations of the function for use in pipe flow calculations.
 

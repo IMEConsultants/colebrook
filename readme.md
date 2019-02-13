@@ -32,10 +32,10 @@ The Colebrook-White equation is used to solve for the [Darcy Friction Factor](ht
 
 The equation is expressed in terms of:
 
-| Parameters | Description | Formula |
-|---|---|---|
-| [Reynolds Number](https://en.wikipedia.org/wiki/Reynolds_number) | A dimensionless value that describes the type of flow - As per | ![equation](https://latex.codecogs.com/gif.download?%5Cinline%20Re%3D%5Cfrac%7B%5Crho%20u%20L%7D%7B%5Cmu%7D) or ![equation](https://latex.codecogs.com/gif.download?%5Cinline%20Re%3D%5Cfrac%7B%20u%20L%7D%7Bv%7D)  |
-| Pipe Relative Roughness | A value which describes the roughness of the pipe material compared to its inner diameter. | ![equation](https://latex.codecogs.com/gif.download?%5Cinline%20%5Cepsilon/D)  |
+| Parameters | Description 
+|---|---|
+| [Reynolds Number](https://en.wikipedia.org/wiki/Reynolds_number) | A dimensionless value that describes the type of flow - As per | 
+| Pipe Relative Roughness | A value which describes the roughness of the pipe material compared to its inner diameter. 
 
 This module implements various approximations of the function for use in pipe flow calculations.
 
